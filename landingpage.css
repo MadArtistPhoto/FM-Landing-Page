@@ -1,0 +1,35 @@
+/* landingpage.css */
+
+:root
+{
+    --color: #7d2;
+    --container-background: #e6a;
+    --main-background: #fff;
+    --main-border: #ff0000;
+    --font-size: 16px;
+}
+
+*,::before, ::after
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+background-color: var(--container-background);
+color: var(--color);
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main
+{
+    width: 80%;
+    height: 80%;
+    background-color: var(--main-background);
+    border: 3px solid var(--main-border);
+}
