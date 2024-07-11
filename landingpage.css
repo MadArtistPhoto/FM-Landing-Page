@@ -3,9 +3,6 @@
 :root
 {
     --color: #001021;
-    --black: #000000;
-    --container-background: #10e5f8;
-    --shadow-color: #0caadc;
     --border-color: #1481ba;
     --main-background: #fff;
     --main-border: #ff0000;
@@ -62,7 +59,7 @@ main
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 80%; 
+    width: 90%; 
 }
 
 nav, article
@@ -70,6 +67,8 @@ nav, article
     padding: 20px;
     margin-bottom: 5px;
     background-color: var(--main-background);
+    border: 2px solid var(--border-color);
+    border-radius: 25px;
 }
 
 ul
@@ -77,6 +76,7 @@ ul
     line-height: 1.75rem;
     text-align: center;
 }
+
 li
 {
     list-style: none;
@@ -105,11 +105,10 @@ p
 
 hr
 {
-    width: 95%;
     margin: 10px auto;
 }
 
-@media screen and (min-width: 600px)
+@media screen and (min-width: 900px)
 {
 
     main
@@ -118,15 +117,13 @@ hr
         justify-content: space-between;
     }
 
-    .no-display
+    nav
     {
-        display: none;
+        width: 39%;
     }
 
-    nav, article
+    article
     {
-        width: 49%;
-        border: 2px solid var(--border-color);
-        border-radius: 25px;
+        width: 59%;
     }
 }
