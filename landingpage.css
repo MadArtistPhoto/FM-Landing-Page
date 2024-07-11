@@ -1,0 +1,132 @@
+/* landingpage.css */
+
+:root
+{
+    --color: #001021;
+    --black: #000000;
+    --container-background: #10e5f8;
+    --shadow-color: #0caadc;
+    --border-color: #1481ba;
+    --main-background: #fff;
+    --main-border: #ff0000;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+*,::before, ::after
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: var(--main-background);
+    color: var(--color);
+
+}
+
+#container
+{
+    height: 100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 10px 0px 0px 0px;
+}
+
+main
+{
+    margin: auto;
+}
+
+.center
+{
+    text-align: center;
+}
+
+header
+{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 5px solid var(--border-color);
+    border-radius: 25px;
+
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%; 
+}
+
+nav, article
+{ 
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: var(--main-background);
+}
+
+ul
+{
+    line-height: 1.75rem;
+    text-align: center;
+}
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+a:hover
+{
+    color: var(--main-background);
+    background-color: var(--color);
+    border-radius: 5px;
+}
+
+p
+{
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+hr
+{
+    width: 95%;
+    margin: 10px auto;
+}
+
+@media screen and (min-width: 600px)
+{
+
+    main
+    {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .no-display
+    {
+        display: none;
+    }
+
+    nav, article
+    {
+        width: 49%;
+        border: 2px solid var(--border-color);
+        border-radius: 25px;
+    }
+}
