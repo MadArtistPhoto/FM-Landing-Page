@@ -1,0 +1,296 @@
+/* socialproofsectionmaster */
+
+
+:root
+{
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+
+    /* Colors */
+
+    --VeryDarkMagenta: hsl(300, 43%, 22%);
+    --SoftPink: hsl(333, 80%, 67%);
+    --DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --LightGrayishMagenta: hsl(300, 24%, 96%);
+	--Black: hsl(0, 0%, 0%);
+    --White: hsl(0, 0%, 100%);
+
+	
+	font-family: "League Spartan", sans-serif;
+    font-Size: 17px;
+}
+
+/* Reset */
+
+*, ::before, ::after
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* General CSS */
+
+/* MOBILE */
+
+body
+{
+	width: 100vw;
+	color: var(--VeryDarkMagenta);
+	background-color: var(--Black);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#container
+{
+	width: var(--mobile-width);
+	padding: 80px 25px;
+	background: url('images/bg-pattern-top-mobile.svg') left top no-repeat, url('images/bg-pattern-bottom-mobile.svg') right bottom no-repeat,  var(--White);
+}
+	
+
+.section-one, .section-two
+{
+	display: flex;
+	flex-direction: column;
+	width: 325px;
+}
+
+.section-one
+{
+	text-align: center;
+}
+
+header
+{
+	font-Size: 40px;
+	font-weight: 700;
+	line-height: .8em;
+	margin-bottom: 22px;
+}
+
+.top-left p
+{
+	font-weight: 600;
+	line-height: 1.5em;
+	color: var(--DarkGrayishMagenta);
+	margin-bottom: 38px;
+}
+
+.bottom-right
+{
+	margin-bottom: 30px;
+}
+.rank1, .rank2, .rank3
+{
+	background-color: var(--LightGrayishMagenta);
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 17px;
+	font-weight: 700;
+}
+
+.stars
+{
+	padding: 6px;
+	margin-bottom: 3px;
+}
+
+
+.sect-two-a, .sect-two-b, .sect-two-c
+{
+	margin-bottom: 16px;
+	padding: 40px 27px 32px 27px;
+	background-color: var(--VeryDarkMagenta);
+	border-radius: 10px;
+	font-weight: 400;
+	color: var(--LightGrayishMagenta);
+}
+
+.name
+{
+	padding-left: 70px;
+	font-weight: 700;
+}
+
+.verified
+{
+	padding-left: 70px;
+	color: var(--SoftPink);
+	margin-bottom: 25px;
+	font-weight: 500;
+}
+	
+.section-two img
+{
+	height: 35px;
+	width: 35px;
+	border-radius: 35px;
+	float: left;
+}
+
+.section-two p
+{
+	line-height: 1.3em;
+}
+
+.attribution
+{
+	background-color: var(--White);
+	padding: 10px 40px;
+	margin-top: 20px;
+	width: 375px;
+	color: var(--Black);
+	background-color: var(--LightGrayishMagenta);
+	border: 5px solid var(--DarkGrayishMagenta);
+	border-radius: 10px;
+
+}
+
+
+
+/* FULL-SCREEN */
+
+@media screen and (min-width:1150px)
+{
+
+	body
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100vh;
+		background-color: var(--Black);
+	}
+
+
+	
+	#container
+	{
+		width:1440px;
+		height: 800px;
+		padding: 0px 165px;
+		display: flex;
+		flex-direction: column;
+		background: url('images/bg-pattern-top-desktop.svg') left top no-repeat, url('images/bg-pattern-bottom-desktop.svg') right bottom no-repeat, var(--White);
+	}
+	
+	.section-one
+	{
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 50%;
+		padding-top: 115px;
+		justify-content: space-between;
+	}
+
+	.top-left
+	{
+		width: 38%;
+	}
+	
+	.bottom-right
+	{
+		width: 50%;
+		margin-top: 30px;
+	}
+
+	header
+	{
+		text-align: left;
+		font-size: 55px;
+		line-height: .9em;
+		font-weight: 700;
+	}
+
+	.top-left p
+	{
+		text-align: left;
+		font-size: 18px;
+		line-height: 1.7rem;
+		font-weight: 500;
+	}
+
+	.bottom-right
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bottom-right p
+	{
+		align-self: center;
+	}
+
+	.stars
+	{
+		padding: 0px 30px;
+		align-self: flex-end;
+	}
+
+	.rank1
+	{
+		align-self: flex-start;
+		display: flex;
+		flex-direction: row;
+		width: 83%;
+		height: 57px;
+	}
+	
+	.rank2
+	{
+		align-self: center;
+		display: flex;
+		flex-direction: row;
+		width: 83%;
+		height: 57px;
+	}
+
+	.rank3
+	{
+		align-self: flex-end;
+		display: flex;
+		flex-direction: row;
+		width: 83%;
+		height: 57px;
+	}
+
+	.section-two
+	{
+		width: 1110px;
+		display: flex;
+		height: 50%;
+		padding-top: 34px;
+		padding-bottom: 97px;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.sect-two-a, .sect-two-b, .sect-two-c
+	{
+		width: 350px;
+		height: 235px;
+		padding: 39px 20px 0px 30px;
+		margin-bottom: 0px;
+	}
+
+	.sect-two-a
+	{
+		align-self: flex-start;
+	}
+	
+	.sect-two-b
+	{
+		align-self: center;
+	}
+	.sect-two-c
+	{
+		align-self: flex-end;
+	}
+}
