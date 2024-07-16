@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (http://www.madartistphoto.byethost5.com/nft-preview-card/nft-preview-card.html)
+- Solution URL: [ NFT Preview Card](https://madartistphoto.github.io/FM-Landing-Page/03-NFT-Preview-Card/nftpreviewcard.html)
 
 ## My process
 

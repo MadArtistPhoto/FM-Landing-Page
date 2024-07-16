@@ -24,7 +24,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Social Links Profile](https://madartistphoto.github.io/social-links-profile-main/)
+- Solution URL: [ Social Links Profile](https://madartistphoto.github.io/social-links-profile-main/)
 
 ## My process
 

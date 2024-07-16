@@ -25,7 +25,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: (https://madartistphoto.github.io/recipe-page-main/)
+- Solution URL:[ Recipe Page](https://madartistphoto.github.io/recipe-page-main/)
 
 ## My process
 

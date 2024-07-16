@@ -23,7 +23,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Link
 
-- Solution URL: [Social Proof Section Master](https://madartistphoto.github.io/social-proof-section-master/)
+- Solution URL: [ Social Proof Section Master](https://madartistphoto.github.io/social-proof-section-master/)
 
 ## My process
 
